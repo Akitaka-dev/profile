@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800");
+@import url('https://use.fontawesome.com/releases/v6.6.0/css/all.css');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #2f4fff38;
+  color: #030404;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+h1, h2, h3 {
+  font-family: 'Playwrite HR Lijeva';
+  color: #163444f2;
+  font-size: 24px;
+  line-height:1.2;
+}
+
+a {
+  color:rgb(52, 30, 71);
+  font-weight:bolder;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#342a7e38;
+  text-decoration:solid;
+}
+
+.card{
+  /* background, border, border-radius and box-shadow */
+  background:fixed;
+  border: 3px;
+  border-radius: 12%;
+  box-shadow: 5px;
+}
+
+.container{
+  width: 500px;
+  margin:2px auto;
+}
+
+.in-line{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.in-line li{
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 29px;
+}
+
+@media (max-width: 960px){
+  .container{
+    width:700px;
+  }
+}
+
+@media (max-width: 720px){
+  .container{
+    width:500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+    width:300px;
+  }
+}
